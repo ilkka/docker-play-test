@@ -1,0 +1,8 @@
+---
+test:
+  build: .
+  ports:
+    - 9000:9000
+  volumes:
+    - .:/app
+    - ~/.ivy2:/root/.ivy2
