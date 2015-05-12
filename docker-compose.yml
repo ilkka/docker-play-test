@@ -6,3 +6,4 @@ test:
   volumes:
     - .:/app
     - ~/.ivy2:/root/.ivy2
+  stdin_open: true
