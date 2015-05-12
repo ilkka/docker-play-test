@@ -1,7 +1,9 @@
 Docker play test
 ================
 
-This is a demonstration of a problem with Docker + Play framework: containers that exit immediately after startup is finished.
+This was a demonstration of a problem with Docker + Play framework: containers that exit immediately after startup is finished. The problem was fixed by [Docker Compose supporting the `stdin_open` option](http://stackoverflow.com/a/30177216/15064).
+
+The information below describes the problematic behavior *before* the fix.
 
 Build the container
 -------------------
